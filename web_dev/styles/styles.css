@@ -1,0 +1,73 @@
+p{
+    font-weight: bold;
+    font-size:30px;
+}
+
+#top{
+    text-decoration: underline;
+}
+
+.emphasizedText{
+    font-style: italic;
+    color:yellow;
+}
+
+body{
+    background-color:dodgerblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border: 15px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.centered-list{
+    padding-left: 0;
+    list-style-position: outside;
+    margin: 0 auto;
+    display: table;
+    text-align: left;
+}
+
+/* Section styling */
+.section1, .section2, .section3 {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific styling for each section */
+.section1 {
+    background-color: lightgreen;
+    border: 2px solid darkgreen;
+}
+
+.section2 {
+    background-color: lightcoral;
+    border: 2px solid darkred;
+}
+
+.section3 {
+    background-color: lightgoldenrodyellow;
+    border: 2px solid goldenrod;
+}
+
+/* Link styling */
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover effect for links */
+a:hover {
+    color: yellow;
+}
+
+/* Styling for iframe (YouTube video) */
+iframe {
+    border: none;
+    margin-top: 10px;
+}
